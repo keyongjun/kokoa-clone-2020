@@ -17,5 +17,42 @@
 
 .nav__link{
     color: #2e363e;
+    position: relative; 
+}
 
+.nav__notification{
+    background-color: tomato;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;     
+    border-radius: 10px;
+    color: white;
+    font-weight: 600px; 
+    position: absolute; 
+    left: 15px; 
+    bottom: 15px;  
+}
+
+.nav__search_block{
+    background-color: tomato;
+    position: absolute;
+    height: 5px;
+    width: 5px; 
+    left: 30px;
+    bottom:  30px;
+    border-radius: 50%;
+} 
+
+
+/*
+작업 여기까지 하다가 말았는데 이모티콘 화면이 달라져야 함!!! 
+*/
+.fa-ellipsis-h .fa-2x{
+    position: absolute;
+}
+
+.fa-ellipsis-h .fa-xs{
+    position: relative;
 }
