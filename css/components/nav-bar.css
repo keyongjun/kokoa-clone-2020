@@ -27,9 +27,9 @@
     justify-content: center;
     align-items: center;
     height: 30px;     
-    border-radius: 10px;
+    border-radius: 15px;
     color: white;
-    font-weight: 600px; 
+    font-weight: 600; 
     position: absolute; 
     left: 15px; 
     bottom: 15px;  
@@ -43,16 +43,5 @@
     left: 30px;
     bottom:  30px;
     border-radius: 50%;
+    border-radius: 15px; 
 } 
-
-
-/*
-작업 여기까지 하다가 말았는데 이모티콘 화면이 달라져야 함!!! 
-*/
-.fa-ellipsis-h .fa-2x{
-    position: absolute;
-}
-
-.fa-ellipsis-h .fa-xs{
-    position: relative;
-}
